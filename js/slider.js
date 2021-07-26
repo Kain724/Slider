@@ -40,7 +40,7 @@ function pageLoaded() {
 
     
 
-  const setEntity = (index) => {
+  const displayInfo = (index) => {
     infoCity.innerHTML = contentInfo[index].city;
     infoAp.innerHTML = contentInfo[index].area;
     infoTime.innerHTML = contentInfo[index].repairTime;
@@ -77,7 +77,7 @@ function pageLoaded() {
     activeSlide(ind);
     activeDots(ind);
     activeLink(ind);
-    setEntity(ind);
+    displayInfo(ind);
   };
 
   const nextSlide = () => {
