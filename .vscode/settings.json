@@ -1,0 +1,9 @@
+{
+    "cSpell.enableFiletypes": [
+        "css",
+        "dockerfile",
+        "git-rebase"
+    ],
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "WS"
+}

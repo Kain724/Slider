@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/reset.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <title>Slider</title>
+</head>
+
+<body>
+  <section class="completed">
+    <div class="container completed-wraper">
+      <nav class="completed-nav">
+        <ul class="completed-nav-list">
+          <li class="completed-nav__item">
+            <a class="link active" href="#" alt="img-admiral">Rostov-on-Don, Admiral</a>
+          </li>
+          <li class="completed-nav__item sochi">
+            <a class="link" href="#" alt="img-sochi">Sochi Thieves</a>
+          </li>
+          <li class="completed-nav__item patriotic">
+            <a class="link" href="#" alt="img-patriotic">Rostov-on-Don Patriotic</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="completed-inner">
+        <div class="slider-container">
+          <div class="slide active">
+            <img class="images" src="img/Copleted/admiral.png" alt="image-admiral." width=" 679" height="482" />
+          </div>
+          <div class="slide">
+            <img class="images" src="img/Copleted/sochi.png" alt="image-sochi" width=" 679" height="482" />
+          </div>
+          <div class="slide">
+            <img class="images" src="img/Copleted/patriotic.png" alt="image-patriotic" width=" 679" height="482" />
+          </div>
+        </div>
+        <div class="completed__info">
+          <h2 class="title info-title">
+            Completed <br class="info-title-br" />
+            projects
+            <hr class="hr-infotitle" />
+          </h2>
+          <p class="info-p">
+            Only a small part of the work performed by our company is
+            presented <br class="info-br" />
+            on the site. For 14 years on in the construction
+            <br class="info-br" />
+            market we have made happy more than 1000 families
+          </p>
+          <div class="mobile-img">
+            <span class="vector--left"></span>
+            <span class="vector--right"></span>
+          </div>
+          <div class="completed__info-bottom">
+            <div class="info-block">
+              <h3 class="subtitle subtitle-info">City:</h3>
+              <span class="info-span city">Rostov-on-Don <br />
+                LCD admiral</span>
+            </div>
+
+            <div class="info-block">
+              <h3 class="subtitle subtitle-info">apartment area:</h3>
+              <span class="info-span apartaments">81 m2</span>
+            </div>
+            <div class="info-block">
+              <h3 class="subtitle subtitle-info">Repair time:</h3>
+              <span class="info-span time">3.5 months</span>
+            </div>
+            <div class="info-block">
+              <h3 class="subtitle subtitle-info">Repair Cost:</h3>
+              <span class="info-span cost">Upon request</span>
+            </div>
+          </div>
+          <div class="nav-dot">
+            <button class="btn-prev"></button>
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <button class="btn-next"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/slider.js"></script>
+</body>
+
+</html>
